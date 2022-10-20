@@ -141,6 +141,11 @@ h4{
     color: white;
 }
 
+.fa-github {
+    background: #4078c0;
+    color: white;
+}
+
 #menu, #menu ul
 {
 	list-style: none;
