@@ -5,17 +5,33 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-        <div class="header">
-            <img class="img-responsive center-block" src="IMG_7013_2.jpg"> <br />
-            <h1>Andrew M Soltis</h1>
-            <div class="NavBar">
-                <button onclick="window.location.href='education.html';"> Education </button>
-                <button onclick="window.location.href='employment.html';"> Employment </button>
-                <button onclick="window.location.href='certification.html';"> Certifications </button>
-                <button onclick="window.location.href='skills.html';"> Skills </button>
-                <button onclick="window.location.href='contact.html';"> Contact </button>
-                <!-- <button type="button">Projects</button> -->
-            </div>
+    <div class="header">
+        <img class="img-responsive center-block" src="IMG_7013_2.jpg"> <br />
+        <h1>Andrew M Soltis</h1> <br />
+
+        <ul id="menu">
+            <li>
+                <a href='index.html' ;">Home</a>
+            </li>
+            <li>
+                <a href='education.html' ;">Education History</a>
+            </li>
+            <li>
+                <a href="employment.html">Employment History</a>
+            </li>
+            <li>
+                <a href="#">Credentials</a>
+                <ul>
+                    <li id="subMenu"><a href="certification.html">Certifications</a></li>
+                    <li id="subMenu"><a href="skills.html">Skills</a></li>
+                    <li id="subMenu"><a href="awards.html">Awards</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="projects.html">Projects</a>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
         </div>
 
     <div class="container">
@@ -38,69 +54,8 @@
                 </p>
             </div>
         </div>
-        <div class="panel">
-            <div class="panel-heading">
-                <h3 class="panel-title">Education</h3>
-            </div>
-            <div class="panel-body">
-                <p>
-                    <strong>B.B.A in Management Information Systems</strong><br>
-                    University of Oklahoma - <small>Price College of Business</small><br>
-                    Expected Graduation: May 2023<br>
-                    GPA: 3.71
-                </p>-->
-                <!--<p>
-                <strong>M.S. in Management Information Technoloy</strong><br>
-                University of Oklahoma - <small>Gene Rainbolt Graduate School of Business</small><br>
-                Expected Graduation: May 2024<br>
-                GPA: 4.0
-            </p>-->
-            <!--</div>
-        </div>
-        <div class="panel">
-            <div class="panel-heading">
-                <h3 class="panel-title">Work History</h3>
-            </div>
-            <div class="panel-body">
-                <p>
-                    <strong>IT Student Employee</strong><br>
-                    <a href="https://law.ou.edu" target="_blank">University of Oklahoma College of Law</a><br>
-                    Aug 2022 - Present
-                </p>
-                <ul>
-                    <li>Assisted customers with account credentials resets via Active Directory</li>
-                    <li>Ensured classroom technology was working and setup according to professor specifications</li>
-                    <li>Worked efficiently to handle routine office needs and important tasks for special projects</li>
-                </ul>
-                <p>
-                    <strong>Operations Associate - Intern</strong><br>
-                    <a href="https://www.blusource.com" target="_blank">Blusource</a><br>
-                    May 2022 - Aug 2022
-                </p>
 
-                <ul>
-                    <li>Reviewed Operations processes to find efficiencies</li>
-                    <li>Documented Operation Department processes</li>
-                    <li>Created and modified SAP Crystal Reports for Department use</li>
-                    <li>Worked within the ERP, WMS, and SQL Database</li>
-                    <li>Created and conducted Department trainings</li>
-                </ul>
-                <p>
-                    <strong>Operations Intern</strong><br>
-                    <a href="https://americanfidelity.com" target="_blank">American Fidelity</a><br>
-                    May 2021 - May 2022
-                </p>
-                <ul>
-                    <li>Supported Customer Engagement and Technical Team</li>
-                    <li>Developed a proposal to transition all claim forms digital</li>
-                </ul>
-                <p>
-                    <strong>Customer Service Clerk</strong><br>
-                    <a href="https://www.harristeeter.com" target="_blank">Harris Teeter</a><br />
-                    Sept 2016 - May 2019
-                </p>
-            </div>
-        </div>
+
         <div class="panel">
             <div class="panel-heading">
                 <h3 class="panel-title">Certifications</h3>
